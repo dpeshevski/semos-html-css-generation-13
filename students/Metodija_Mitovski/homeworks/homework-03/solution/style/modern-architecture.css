@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(241, 241, 241);
+  font-family: "Pathway Gothic One", sans-serif;
+  line-height: 1.5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---- Header, Bg Image ---- */
+.bg-img-wrapper {
+  background: url("../static/architecture.jpg") no-repeat center;
+  background-size: cover;
+  height: 35rem;
+}
+
+.title-holder {
+  line-height: 1.2;
+}
+
+header {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.links-list {
+  list-style-type: none;
+  display: flex;
+}
+
+li a {
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.title-holder h1 {
+  letter-spacing: 3px;
+  font-size: 3rem;
+}
+
+li a,
+h1,
+.logo {
+  color: rgb(56, 56, 56);
+}
+
+.active {
+  color: rgb(104, 223, 74);
+}
+
+.title-holder {
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.underline {
+  width: 15px;
+  height: 2.5px;
+  margin-left: 1.5px;
+}
+
+.title-holder p {
+  color: rgb(97, 96, 96);
+  margin: 15px 0;
+}
+
+.underline,
+.buttons a,
+button,
+.cards-holder {
+  background-color: rgb(128, 180, 98);
+}
+
+.buttons a {
+  width: 2rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  padding: 7px 10px;
+}
+
+.buttons a,
+button {
+  margin-right: 7px;
+  color: rgb(255, 255, 255);
+}
+
+i {
+  font-size: 10px;
+  padding: 12px;
+}
+button {
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+
+/* ---- Section Cards ---- */
+.cards-holder {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.single-card {
+  width: 12.5rem;
+  color: white;
+  text-align: center;
+  padding: 11px;
+}
+
+.single-card i {
+  font-size: 25px;
+}
+
+.single-card p {
+  font-size: 0.9rem;
+  color: aliceblue;
+  margin-top: 10px;
+}
+
+article:nth-child(2),
+article:nth-child(3) {
+  background-color: rgb(118, 177, 84);
+}
+
+/* section-images */
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: rgb(99, 99, 99);
+  margin-bottom: 1.5rem;
+}
+
+.images h2 {
+  margin-bottom: 10px;
+}
+
+.images p {
+  font-size: 0.9rem;
+}
+
+.img {
+  width: 15rem;
+  height: 10rem;
+  background: rgb(104, 223, 74);
+  margin-right: 0.5rem;
+}
+
+.images-info {
+  width: 15rem;
+  margin-right: 2rem;
+}
