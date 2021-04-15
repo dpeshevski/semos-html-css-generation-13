@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;  
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 30rem;
+  position: relative;
+  background-color: rgb(173, 169, 169);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  list-style: none; 
+  justify-content: space-between; 
+}
+.links a {
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+}
+ul li .click {
+  color: green;
+}
+main {
+  margin-left: 15rem;
+  padding-top: 8rem;
+}
+.underline {
+  width: 25px;
+  height: 5px;
+  background: green;
+  border-radius: 5px;
+}
+.button1 {
+  width: 4rem;
+ height: 4rem;
+}
+button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: green;
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+}
+.descimg {
+  width: 15rem;
+}
+.coltext {
+  padding: 1rem;
+}
+img {
+  height: 110px;
+}
