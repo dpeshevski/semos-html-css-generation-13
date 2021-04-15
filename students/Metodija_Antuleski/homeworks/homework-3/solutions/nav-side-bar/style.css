@@ -8,12 +8,15 @@ body {
     background-color: rgb(219, 194, 146);
 }
 
+/* HEADER */
+
 nav {
     min-height: 5vh;
     background-color: rgb(219, 194, 146);
     align-items: center;
     padding: 20px 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 3px 0px rgba(68,68,68,0.6);
     /* margin-top: 5px; */
     margin: 10px 10px;
 }
@@ -31,6 +34,8 @@ nav a {
     text-decoration: none;
 }
 
+
+/* SIDE-BAR */
 .side-bar {
     width: 270px;
     height: auto;
@@ -74,6 +79,8 @@ nav a {
     padding-right: 20px;
 }
 
+/* MAIN */
+
 .main {
     margin: 30px 30px;
 }
@@ -92,6 +99,8 @@ a {
     color: rgb(2, 2, 124);
     font-size: 18px;
 }
+
+/* FOOTER */
 
 footer {
     min-height: 9vh;

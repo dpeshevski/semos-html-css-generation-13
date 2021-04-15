@@ -10,11 +10,16 @@ body {
     background-size: cover;
 }
 
+
+/* HEADER */
+
+
 nav {
     display: flex;
     justify-content: space-between;
     margin: 30px 100px;
     color: white;
+    font-size: 20px;
 }
 #hamburger div {
     width: 25px;
@@ -22,6 +27,8 @@ nav {
     background-color: white;
     margin: 5px;
 }
+
+/* SECTION */
 
 .container {
     
@@ -31,16 +38,6 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.container-one {
-    width: 100%;
-    height: 700px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-   
 }
 
 .btn {
@@ -64,6 +61,19 @@ nav {
     font-size: 20px;
 }
 
+
+/* SECTION-ONE */
+
+.container-one {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
 .wrap {
     margin-top: 100px;
     display: flex;
@@ -74,14 +84,18 @@ nav {
 }
 
 .div-text {
-    width: 300px;
+    width: 350px;
     height: auto;
     text-align: left;
-    margin-top:  50px;
+    padding-top:  90px;
 }
 
 .div-text p {
-   
-    margin-top: 30px;
+    color: rgb(143, 143, 143);
+    padding-top: 30px;
+}
+
+.div-text h1 {
+    color: rgb(75, 75, 75);
 }
 
