@@ -1,0 +1,148 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Noto+Sans:400,700');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --padding-xs: 5px;
+  --padding-sm: 10px;
+  --padding-md: 20px;
+  --color-primary: #5c5d5e;
+  --color-secondary: #e8ebed;
+
+  --border-radius-sm: 10px;
+}
+
+html {
+  min-height: 100%;
+}
+
+form {
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+  padding: var(--padding-md);
+  border-radius: 10px;
+  border-top: 30px solid #5c5c5c;
+  background-color: var(--color-secondary);
+  box-shadow: 0 0 80px rgba(0, 0, 0, .2);
+}
+
+form::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #adadad;
+  box-shadow: 
+    20px 0 0 #adadad,
+    40px 0 0 #adadad;
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: var(--padding-md);
+  border-bottom: 1px solid #adadae;
+  color: var(--color-primary);
+  font-size: 1.1em;
+}
+
+.container {
+  padding: var(--padding-md) 0;
+}
+
+.container::after {
+  content: '';
+  display: block;
+  clear: left;
+}
+
+.container div {
+  clear: left;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+label,
+a {
+  display: block;
+  float: left;
+  clear: left;
+  position: relative;
+  color: var(--color-primary);
+  text-decoration: none;
+  margin-left: 25px;
+  padding: var(--padding-xs);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+label::before,
+a::before {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  /* right: 25px; */
+  font-family: 'Font Awesome\ 5 Free';
+}
+
+label::before {
+  content: '\f07b'; /* closed folder */
+}
+
+input:checked + label::before {
+  content: '\f07c'; /* open folder */
+}
+
+a::before {
+  content: '\f15b';
+}
+
+input:focus + label,
+a:focus {
+  outline: none;
+  background-color: #b9c3b9;
+}
+
+.sub {
+  display: none;
+  float: left;
+  margin-left: 25px;
+}
+
+input:checked ~ .sub {
+  display: block;
+}
+
+input[type="reset"] {
+  display: block;
+  width: 100%;
+  padding: var(--padding-sm);
+  border: none;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  color: var(--color-secondary);
+  background-color: #6b7c75;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+input[type="reset"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #b9c3b9;
+}
+
+input[type="reset"]:hover {
+  transform: scale(.9);
+}
