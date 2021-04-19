@@ -21,6 +21,12 @@ html {
   min-height: 100%;
 }
 
+body {
+  margin: 40px;
+  font: 1.2em/1.2 'Noto Sans', sans-serif;
+  background: linear-gradient(90deg, #b9c3c9, #6b7c87);
+}
+
 form {
   position: relative;
   width: 350px;
