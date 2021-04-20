@@ -1,0 +1,108 @@
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3498db;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+form {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  border-radius: 5px;
+  border: 6px solid #3a8abf;
+}
+
+form h1 {
+  color: #525252;
+  margin-bottom: 2.5rem;
+}
+
+form input {
+  width: 25rem;
+  height: 2.8rem;
+  padding: 10px;
+}
+
+.user-name,
+.password {
+  background-color: #ecf0f1;
+  border-color: #d0d0d0;
+  border-top: 2px solid #d0d0d0;
+  border-right: 2px solid #d0d0d0;
+  border-bottom: 3px solid #d0d0d0;
+  border-left: 2px solid #d0d0d0;
+  border-radius: 5px;
+  outline: none;
+  color: #807e7e;
+  font-size: 1rem;
+}
+
+.user-name {
+  margin-bottom: 1rem;
+}
+
+.password {
+  margin-bottom: 2rem;
+}
+
+form button {
+  margin-top: 0.8rem;
+  background-color: #2ecc71;
+  color: #f9fffd;
+  font-family: "Roboto", sans-serif;
+  padding: 12px 4rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 2px solid #20bb61;
+  cursor: pointer;
+}
+
+.wrapper h4 {
+  margin-top: 1.2rem;
+  color: #ffffff;
+}
+
+.wrapper a {
+  color: #e4c11d;
+}
+
+/* media queries */
+@media screen and (max-width: 480px) {
+  form {
+    padding: 1rem 0.7rem;
+  }
+
+  form input {
+    width: 17rem;
+    height: 2.3rem;
+    padding: 9px;
+  }
+
+  .user-name,
+  .password {
+    font-size: 0.8rem;
+  }
+
+  form button {
+    padding: 10px 3.5rem;
+    font-size: 0.8rem;
+  }
+
+  .wrapper h4,
+  .wrapper a {
+    font-size: 0.8rem;
+  }
+}
