@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(198, 217, 245);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+section {
+  width: 90%;
+  margin: 2.5rem 0 2.5rem 5%;
+  margin-left: 5%;
+  background-color: rgba(255, 255, 255, 0.541);
+  padding: 2rem;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  table-layout: fixed;
+  width: 90%;
+  margin-left: 5%;
+  color: rgb(126, 126, 126);
+}
+
+thead tr th {
+  padding: 1rem;
+  padding-left: 8px;
+}
+
+thead,
+caption {
+  text-align: left;
+}
+
+thead tr th:nth-child(6),
+tbody tr td:nth-child(6),
+thead tr th:nth-child(5),
+tbody tr td:nth-child(5) {
+  text-align: center;
+}
+
+tbody tr td:nth-child(6) {
+  color: rgb(94, 144, 238);
+}
+
+tbody tr td {
+  padding: 8px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+tbody tr {
+  background-color: rgb(255, 255, 255);
+}
+
+.user-data span {
+  color: rgb(118, 119, 119);
+  font-size: 0.8rem;
+}
+
+img {
+  width: 3rem;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.active,
+.in-active {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.active {
+  background-color: rgb(138, 196, 52);
+}
+
+.in-active {
+  background-color: rgb(211, 32, 32);
+}
+
+tbody tr td:nth-child(2) {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  text-decoration: none;
+  color: rgb(126, 126, 126);
+}
+
+.contact {
+  background-color: rgb(94, 144, 238);
+  color: white;
+  width: 60px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+}
+
+thead,
+caption,
+tbody tr td:nth-child(1) {
+  color: rgb(19, 18, 18);
+}
