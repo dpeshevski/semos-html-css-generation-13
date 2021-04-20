@@ -1,0 +1,63 @@
+body {
+    background-image: url('../images-pages/backgroundx.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+    width: 60px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+nav ul {
+     list-style: none;
+     float:right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 40px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.container1 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.box-1 {
+    height: 250px;
+    width: 250px;
+}
+
+.box-1 button {
+    background-color: rgb(6, 85, 202);
+    border-radius: 5px;
+    color: white;
+}
+
+#img-1 {
+   width: 400px;
+   padding-left:50px;
+}
+
+.container2 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.container2 img {
+    padding-left: 40px;
+}
