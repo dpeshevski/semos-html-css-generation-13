@@ -1,0 +1,36 @@
+html {
+    background-color: rgb(111, 182, 240);
+    margin: 100px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: max-content;
+    grid-gap: 10px;
+    padding-bottom: 20px;
+}
+
+.login-background {
+    width: 220px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+button {
+    border-radius: 8px;
+    background-color: rgb(134, 196, 134);
+    padding: 7px;
+    color: white;
+}
+
+p {
+    color: white;
+    padding-left: 15px;
+}
+
+label {
+    padding-bottom: 10px;
+}

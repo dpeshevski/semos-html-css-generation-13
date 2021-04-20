@@ -1,0 +1,33 @@
+.calendar {
+    width: 20%;
+    padding-top: 20px;
+}
+
+.month-indicator {
+padding-bottom: 40px;
+padding-left: 130px;
+font-size: 30px;
+}
+
+.days-of-the-week,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-row-gap: 50px;
+  padding-left: 50px;
+}
+
+.days-of-the-week {
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+
+.date-grid button {
+    background-color: white;
+    border: none;
+}
+
+.date-grid button:first-child {
+    grid-column: 6;
+  }
