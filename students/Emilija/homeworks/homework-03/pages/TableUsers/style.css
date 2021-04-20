@@ -1,0 +1,108 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+table {
+    background:rgb(255, 255, 255);
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    width: 50%;
+    padding-left: 50px;
+}
+
+tbody tr {
+    background: rgb(243, 243, 243);
+}
+
+.user {
+    display: flex;
+}
+
+
+img {
+    width: 80px;
+    height: 80px;
+    padding-right: 5px;
+    border-radius: 50%;
+}
+
+
+thead th:nth-child(1) {
+    width: 20%;
+    text-align: left;
+}
+
+thead th:nth-child(2) {
+    width: 15%;
+    text-align: left;
+}
+
+thead th:nth-child(3) {
+    width: 10%;
+    text-align: left;
+}
+
+thead th:nth-child(4) {
+    width: 5%;
+    text-align: left;
+}
+
+thead th:nth-child(5) {
+    width: 5%;
+    text-align: left;
+}
+
+thead th:nth-child(6)) {
+    width: 5%;
+    text-align: left;
+}
+
+
+th,
+td {
+    padding: 15px;
+    letter-spacing: 2.5px;
+}
+
+    tbody td:nth-child(1) {
+    width: 5%;
+    text-align: left;
+    }
+    
+    tbody td:nth-child(2) {
+        width: 10%;
+    text-align: left;
+        }
+    
+    tbody td:nth-child(3) {
+        width: 15%;
+        text-align: left;
+    }
+    
+    tbody td:nth-child(4) {
+        width: 10%;
+        text-align: left;
+    }
+
+    tbody td:nth-child(5) {
+        width: 10%;
+        text-align: center;
+    }
+
+    tbody td:nth-child(6) {
+        width: 10%;
+        text-align: center;
+    }
+
+
+
+
+button {
+    border-radius: 10%;
+    background-color: rgb(69, 164, 243);
+    width: 70px;
+    padding: 5px;
+    color: white;
+}
