@@ -1,0 +1,138 @@
+html {
+  background: url(../ModernArchitecture/architecture.jpg);
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-position: top;
+  background-size: cover;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  padding-top: 25px;
+}
+
+.nav-title {
+  padding-left: 180px;
+  text-shadow: 1.5px 1px rgb(145, 138, 138);
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: large;
+  text-shadow: 1.5px 1.5px #c5c2c2;
+  margin: 30px;
+  padding-right: 70px;
+  text-indent: 50px;
+}
+
+.main-title {
+   margin-left: 30rem; 
+   display: flex;
+   flex-direction: column;
+}
+
+
+.h1-title {
+  font-size: 55px;
+}
+
+
+.p-text {
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+}
+
+button {
+  background-color: rgb(169, 212, 127);
+  padding: 3px;
+  margin-top: 10px;
+  margin-right: 7px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+i {
+  padding: 15px;
+  border-radius: 24px;
+  display: flex;
+  background-color: rgb(169, 212, 127);
+}
+
+span {
+padding-top: 20px;
+padding-left: 6px;
+}
+
+  .container {
+    justify-content:center;
+    display: flex;
+    background-color: rgb(177, 189, 154);
+    margin-top: 100px;
+    height: 240px;
+    color: whitesmoke;
+  }
+  .container i {
+    background: none;
+    padding-left: 30px;
+  }
+
+  .one {
+    width: 230px;
+    margin-left: 250px;
+    padding-left: 150px;
+  }
+
+  .two {
+    background-color: rgb(177, 212, 143);
+    padding-left: 40px;
+    width: 230px;
+  }
+
+  .three {
+    background-color: rgb(177, 212, 143);
+    padding-left: 40px;
+    margin-right: 50px;
+    padding-right: 20px;
+  }
+ 
+  .four {
+    padding-right: 280px;
+  }
+
+
+  .holder {
+    display: flex;
+  }
+
+  .paragraph {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h2-title {
+    font-size: 35px;
+    display: flex;
+    padding-left: 27rem;
+  }
+
+  .p2-text {
+    font-size: medium;
+    padding-left: 250px;
+    margin-left: 180px;
+    margin-right: 10px;
+  }
+
+  .images {
+    width: 144px;
+    height: 200px;
+    display: flex;
+  }
+

@@ -1,0 +1,96 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to left, rgb(221, 92, 193), rgb(100, 90, 236));
+}
+
+table {
+    border-radius: 20px;
+    border-collapse: collapse;
+    background-color: rgb(0, 11, 71);
+    text-align: center;
+    margin: 170px 380px 170px 380px;
+    width: 60%;
+}
+
+thead {
+color: rgb(255, 255, 255);
+}
+
+thead th:nth-child(1) {
+    width: 5%;
+    text-align: left;
+    padding-left: 35px;
+}
+
+thead th:nth-child(2) {
+    width: 15%;
+    text-align: left;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+    text-align: left;
+}
+
+thead th:nth-child(4) {
+    width: 5%;
+    text-align: right;
+}
+
+thead th:nth-child(5) {
+    width: 10%;
+    text-align: right;
+}
+
+thead th:nth-child(6) {
+    width: 15%;
+    text-align: right;
+    padding-right: 35px;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+tbody td:nth-child(1) {
+text-align: left;
+padding-left: 35px;
+width: 20%;
+}
+
+tbody td:nth-child(2) {
+    width: 5%;
+    text-align: left;
+    }
+
+tbody td:nth-child(3) {
+    width: 15%;
+    text-align: left;
+}
+
+tbody td:nth-child(4) {
+    width: 10%;
+    text-align: right;
+}
+
+tbody td:nth-child(5) {
+    width: 10%;
+    text-align: right;
+}
+
+tbody td:nth-child(6) {
+padding-right: 35px;
+text-align: right;
+width: 5%;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.942);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
