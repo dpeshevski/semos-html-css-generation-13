@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+  padding: 0;
+  width:100%;
+}
+.section1{
+  background-image: url(../outcome/travel.png);
+  width: 100%;
+  height: 35rem;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 3rem;  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  padding-top: 1rem;
+}
+main{
+  text-align: center;
+  align-items: center;
+  padding-top: 6rem;  
+}
+li{
+  text-decoration: none;
+  list-style-type: none; 
+  font-size: 1.5rem; 
+}
+main h1 {
+  font-size: 3rem;
+}
+a {
+  text-decoration:none;
+  height: 10px;
+  width: 10px;
+  outline-style: solid;
+  outline-color: white;
+  color: white;
+  padding: 0.7rem;  
+}
+p{
+  color: rgb(150, 146, 146);
+}
+.letter {
+  color: rgb(121, 117, 117);
+}
+.section2 {
+  width: 50%;
+  margin: auto;  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+img{
+  height: 300px;
+  width: 300px;
+}

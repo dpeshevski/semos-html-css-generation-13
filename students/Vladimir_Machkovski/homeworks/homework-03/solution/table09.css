@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+  background-color: rgb(201, 192, 192);
+  padding: 3rem;
+}
+caption{
+  padding-bottom: 1rem;
+}
+
+
+/*####################  Section ##########################*/
+table {
+  border-collapse: collapse;
+  margin:auto; 
+  padding: 3rem;
+}
+.progres {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+.open {
+  background-color: orange;
+  color: black;
+  border-radius: 5px;
+}
+.onhold {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+tbody tr:nth-child(odd){
+  background-color: white;
+}
+tbody tr:nth-child(even) {
+  background-color: grey;
+}
+ td {
+  padding: 1rem;
+}

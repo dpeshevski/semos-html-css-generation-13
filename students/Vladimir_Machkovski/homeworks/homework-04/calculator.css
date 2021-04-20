@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+.calculator {
+  width: 30%;
+  height: 500px; 
+  margin-top: 5rem; 
+  background-color: black;  
+}
+.resultat p:nth-child(1){
+  background-color: rgb(35, 65, 45);
+  width: 95%;
+  height: 63px;
+  margin: auto;  
+  text-align: end;
+  margin-top: 0.5rem;
+}
+.resultat p:nth-child(2){
+  background-color:black;
+  width: 95%;
+  height: 63px;
+  margin: auto; 
+  text-align: end; 
+  margin-top: 0.5rem;
+}
+
+.numeric {
+  width: 95%;
+  height: 350px;
+  margin: auto;  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
+  text-align: center; 
+  justify-content: center; 
+  background-color:white;      
+}
+.numeric div {
+  background-color:rgb(100, 127, 136);
+  color: white; 
+  font-size: 30px;
+  align-items: center;
+  padding: 1rem;
+  margin: 1px;
+}
+.multiplied, .result {
+  grid-column-start: 4;
+}
+div .ac {
+  grid-column: 1 / span 2 ;
+  background-color: red;  
+}
+div .equally {
+  grid-row: 4 / span 2 ;
+  grid-column: 4 / span 1; 
+  padding-top: 3rem; 
+}
+.number0 {
+  grid-column: 1 / span 2;
+}
+p {
+  color: white;
+  font-size: 30px;
+}

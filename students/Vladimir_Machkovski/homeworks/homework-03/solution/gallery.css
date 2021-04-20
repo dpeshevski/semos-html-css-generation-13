@@ -1,0 +1,64 @@
+body{
+  background-color: burlywood;
+  margin: 0;
+  padding: 0;   
+}
+
+header, main, footer {
+  width: 90%;  
+  
+}
+header {
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+nav {
+  background-color: rgb(213, 213, 231);
+  padding: 1rem;
+  }
+.list1{
+  display: flex;
+   list-style-type:none;
+   justify-content: space-around;  
+}
+.list1 li a {
+  text-decoration: none;
+}
+.divflex {
+  display: flex;
+  align-items: center;
+  background-color: rgb(182, 212, 99);
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+main{  
+  display: flex;
+  padding-left: 2rem;  
+  }
+button {
+  background-color: rgb(182, 212, 99);
+  color: black;
+}
+.section1{
+  margin-left: 3rem;
+  width: 200%;
+  text-align: start;
+  padding-top: 1rem;
+}
+.section2{
+  padding-top: 1rem;
+}
+
+.section2-2 {
+  display: flex;
+}
+footer{
+  text-align: center;
+  background-color:rgb(182, 212, 99) ;
+  padding-left: 6rem;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
