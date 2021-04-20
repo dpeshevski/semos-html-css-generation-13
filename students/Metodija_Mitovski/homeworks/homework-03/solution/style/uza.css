@@ -1,0 +1,152 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(250, 250, 250);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---- heading ---- */
+.vector {
+  width: 75rem;
+  height: 25rem;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: -1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  display: flex;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  background-color: rgb(125, 225, 250);
+  margin-top: 1.5rem;
+}
+
+.links-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.links-list li {
+  padding: 5px 25px;
+}
+
+.links-list a {
+  text-decoration: none;
+}
+
+.links-list a,
+i {
+  color: rgb(104, 103, 103);
+}
+
+.fa-chevron-down {
+  font-size: 10px;
+}
+
+.get-quote {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 35px;
+  font-size: 0.9rem;
+  box-shadow: -1px 0px 30px -2px rgba(117, 173, 245, 1);
+}
+.links-list .get-quote {
+  color: rgb(15, 147, 255);
+}
+
+/* hardcoded underline */
+li {
+  position: relative;
+}
+.active::after {
+  content: "";
+  width: 2.5rem;
+  height: 3px;
+  background-color: rgb(9, 157, 226);
+  position: absolute;
+  top: 1.7rem;
+  right: 1.6rem;
+}
+
+/* ---- container-1 ---- */
+main {
+  line-height: 1.5;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  position: relative;
+  min-height: 15rem;
+}
+
+.selfie-img {
+  width: 25rem;
+  position: absolute;
+  right: 18rem;
+}
+
+.title-holder {
+  margin-right: 25rem;
+}
+
+.container-1 h1 {
+  font-size: 4rem;
+  color: rgb(51, 51, 51);
+}
+
+.container-1 span {
+  color: rgb(9, 157, 226);
+}
+
+.container-1 p {
+  color: gray;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin: 1rem 0 3rem 0;
+}
+
+.container-1 a {
+  text-decoration: none;
+  padding: 0.7rem 1.3rem;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: rgb(5, 173, 252);
+}
+
+/* ---- container-2 ---- */
+.container-2 {
+  width: 60%;
+  margin: 10rem 0 3rem 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.vr-user-img {
+  width: 20rem;
+}
+
+.container-2 h1 {
+  font-size: 2rem;
+  color: rgb(88, 88, 88);
+}

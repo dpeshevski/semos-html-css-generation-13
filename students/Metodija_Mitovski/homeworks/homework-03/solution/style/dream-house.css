@@ -1,0 +1,170 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(250, 250, 250);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ---- Header, Title ---- */
+.wrapper {
+  width: 100%;
+  height: 35rem;
+  position: relative;
+  background-image: url("../static/background-dream-house.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper,
+header {
+  padding: 1rem;
+}
+
+header {
+  height: 3rem;
+  margin-left: 15%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: -2px 1px 23px -3px rgba(61, 61, 61, 1);
+}
+
+header,
+.title-search-holder p,
+.section-cards,
+.section-images {
+  width: 70%;
+}
+
+.links-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.links-list li {
+  padding: 0.8rem;
+}
+
+.links-list a {
+  text-decoration: none;
+  color: rgb(104, 103, 103);
+}
+
+.links-list .active,
+.wrapper h4,
+.card-icon,
+h3 {
+  color: rgb(7, 136, 168);
+}
+
+.title-search-holder,
+.title-search-holder a,
+form button {
+  color: #fff;
+}
+
+.title-search-holder {
+  position: absolute;
+  text-align: center;
+  line-height: 1.5;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form {
+  margin: 1rem 0 2rem 0;
+}
+
+input {
+  width: 25rem;
+  height: 2.5rem;
+  border-radius: 50px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+form button,
+.section-images button {
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 50px;
+  background: linear-gradient(to right, #bf07c0, #920592, #ff2e6d);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.title-search-holder p {
+  margin: auto;
+  margin-bottom: 2.5rem;
+}
+
+.title-search-holder a {
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+/* ---- section-cards ---- */
+.section-cards {
+  position: absolute;
+  bottom: -10%;
+  left: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.single-card {
+  width: 23%;
+  padding: 1.3rem 0;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 15px -1px rgba(153, 145, 153, 1);
+}
+
+.card-icon {
+  font-size: 1.6rem;
+}
+
+.card-icon {
+  margin-bottom: 0.8rem;
+}
+
+h5 {
+  color: rgb(85, 85, 85);
+}
+
+/* ---- section-images ---- */
+.section-images {
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+
+.section-images div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-images button {
+  width: 9rem;
+  height: 2.3rem;
+}
+
+.single-img {
+  width: 33.33%;
+}
+.images {
+  display: flex;
+  margin-top: 2rem;
+}
