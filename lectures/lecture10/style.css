@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  font: 500 1.2em/1.2 'Roboto', sans-serif;
+  background: linear-gradient(-20deg, #d0b782 20%, #a0cecf 80%);
+  color: #435757;
+}
+
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  border-top: 5px solid #435757;
+  background-color: rgba(255, 255, 255, .2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+  user-select: none;
+}
+
+/* .container > h1 {} */
+
+h1 {
+  margin: 0;
+  padding: 20px;
+  font-size: 1.8em;
+  background-color: rgba(255, 255, 255, .4);
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  counter-reset: done-count-items, undone-count-items;
+}
+
+h2 {
+  position: relative;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 1.2em;
+}
+
+h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: -20px;
+  width: 5px;
+  background-color: #435757;
+}
+
+h2::after {
+  display: block;
+  float: right;
+  font-weight: normal;
+}
+
+.done {
+  order: 1;
+}
+/* Done (4) */
+.done::after {
+  content: ' (' counter(done-count-items) ')';
+}
+
+.undone {
+  order: 3;
+}
+/* Not Done (2) */
+.undone::after {
+  content: ' (' counter(undone-count-items) ')';
+}
+
+/* done-count-items && undone-count-items */
+
+/* unchecked list */
+input {
+  display: block;
+  height: 50px;
+  margin: 0 0 -50px -9999px;
+  order: 4;
+  outline: none;
+  counter-increment: undone-count-items;
+}
+
+/* Done */
+/* List checked */
+/* Not Done */
+/* List unchecked */
+
+
+/* checked list */
+input:checked {
+  order: 2;
+  counter-increment: done-count-items;
+}
+
+label {
+  display: block;
+  position: relative;
+  padding: 15px 0 15px 45px;
+  border-top: 1px dashed #fff;
+  order: 4;
+  cursor: pointer;
+  animation: undone .5s;
+}
+
+/* f111 circle outline */
+/* f058 circle checkmark */
+
+label::before {
+  content: '\f111';
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  font: 1.5em 'Font Awesome\ 5 Free';
+}
+
+input:checked + label {
+  order: 2;
+  animation: done 2s;
+}
+
+input:checked + label::before {
+  content: '\f058';
+}
+
+label:hover,
+input:focus + label {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+@keyframes done {
+  0% {
+    opacity: 0;
+    background-color: rgba(255, 255, 255, .1);
+    transform: translateY(20px);
+  }
+
+  50% {
+    opacity: .5;
+    background-color: rgba(255, 255, 255, .2);
+  }
+
+  80% {
+    opacity: .8;
+    background-color: rgba(255, 255, 255, .3);
+  }
+
+  100% {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, .4);
+  } 
+}
+
+@keyframes undone {
+  0% {
+    opacity: 0;
+    background-color: rgba(255, 255, 255, .4);
+    transform: translateY(-20px);
+  }
+
+  50% {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, .4);
+  }
+}
+
+/* input id="dropdown-bth */
+/* <div> */
+/* input id="dropdown-button"
+/* 
+/* label */
+/* ul class="menu" */
+/* </div> */
+/* .menu {
+  display: none;
+}
+
+input[id^="dropdown-b"]:checked ~ .menu {
+  display: block;
+} */
