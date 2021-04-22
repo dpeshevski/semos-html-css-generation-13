@@ -1,0 +1,128 @@
+html {
+    background-image: url('https://web.uponor.hk/wp-content/uploads/2018/05/WHY-RADIANT-COOLING-SOLUTIONS-ARE-ESSENTIAL-FOR-GREEN-BUILDING-DESIGN.jpg');
+    background-repeat: no-repeat;
+    height: 950px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-nav {
+    margin: 20px;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.navbar {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    color: #44c044;
+}
+
+
+
+.main {
+    margin: 100px 0 0 300px;
+    width: 500px;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.explore-btn {
+    padding: 10px;
+    border: none;
+    background-color: #44c044;
+    color: white;
+}
+
+.fa-play-circle {
+    margin: 10px;
+    font-size: xx-large;
+    color: #44c044;
+}
+ 
+
+
+.main-bar {
+    margin-top: 165px;
+    background-color: #008080c0;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.dark {
+    background-color:#037070bb; 
+}
+
+.fas {
+    font-size: xx-large;
+}
+
+.container h3, p {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+
+.description {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(17, 114, 98, 0.959);
+}
+
+.description img {
+    width: 200px;
+    height: 200px;
+}
+
+.text {
+    width: 500px;
+    margin-left: 300px;
+}
+
+.text h1 {
+    color: #fff;
+}
