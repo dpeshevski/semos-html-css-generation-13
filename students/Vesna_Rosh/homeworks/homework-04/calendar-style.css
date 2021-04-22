@@ -1,0 +1,59 @@
+html {
+  background-color: #d9e2eb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.calendar {
+  background-color: #fff;
+  margin-left: 230px;
+  margin-right: 230px;
+  height: 95vh;
+  border-radius: 3%;
+}
+header {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  background: #fff;
+  color: black;
+  opacity: .7;
+  text-align: center;
+  background-color: #fff;
+  padding-top: 35px;
+  border-top: 2px solid #fff;
+  border-radius: 25%;
+}
+.header h2 {
+  vertical-align: bottom;
+}
+ul, ol {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: .2em;
+  margin: 0 auto;
+  max-width: 30em;
+  padding: 0;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-left: 0;
+  font-size: 1.5rem;
+  opacity: .7;
+}
+.day-grid {
+  height: 300px;
+}
+ul.weekdays abbr[title] {
+  font-weight: 600;
+  color: grey;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+ol.day-grid li:first-child {
+  grid-column: 6;
+}
+
