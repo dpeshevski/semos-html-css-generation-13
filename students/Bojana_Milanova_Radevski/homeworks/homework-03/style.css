@@ -1,0 +1,129 @@
+button
+	{
+	 background-color: rgb(163, 163, 163);
+	 font-family:sans-serif;
+	 font-size:25px;
+	 color:white;
+	 
+	}
+	button:hover{
+	background-color: rgb(182, 182, 182);
+	color:black;
+	}
+	button:active{
+	
+	box-shadow: 0 1px #79889A;
+    transform: translateY(4px);
+	}
+	body{
+	display:flex;
+	justify-items:center;
+	color:white;
+
+	}
+	#root{
+	padding:5px;
+	background-color:black;
+	display:grid;
+	width:240px;
+	height:280px;
+	  grid-template-columns: 1fr 1fr 1fr 1fr;
+	  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	  grid-gap:0.1px;
+	  grid-template-areas: 
+	  "display display display display"
+	  "cdisplay cdisplay cdisplay cdisplay"
+	  "clear clear divide multiply"
+	  "seven eight nine minus"
+	  "four five six plus"
+	  "one two three equal"
+	  "zero zero dot equal";
+	}
+
+	#display{
+	  grid-area:display;
+	  color:white;
+	  text-align:right;
+	  background:#304E4D;
+	   border:none;
+	   font-size:18px;
+	   font-family:"Tinos"
+	}
+	#cdisplay{
+	grid-area:cdisplay;
+	 font-color:white;
+	 text-align:right;
+	 background:black;
+	 border:none;
+	 font-size:18px;
+	 font-family:"Tinos"
+	}
+
+	#clear
+	{
+	  grid-area:clear;
+	  background: #AC3B36;
+	}
+
+	#divide
+	{
+	grid-area:divide;
+	}
+	#multiply
+	{
+	grid-area:multiply;
+	}
+	#plus{
+	grid-area:plus;
+	}
+	#minus{
+	grid-area:minus;
+	}
+	#seven
+	{
+	grid-area:seven;
+	}
+	#eight
+	{
+	grid-area:eight;
+	}
+	#nine
+	{
+	grid-area:nine;
+	}
+	#four
+	{
+	grid-area:four;
+	}
+	#five
+	{
+	grid-area:five;
+	}
+	#three
+	{
+	grid-area:three;
+	}
+	#two
+	{
+	grid-area:two;
+	}
+	#one
+	{
+	grid-area:one;
+	}
+	#dot
+	{
+	grid-area:dot;
+	}
+	#zero{
+	grid-area:zero;
+	}
+	#equal{
+	grid-area:equal;
+	}
+	#six{
+	grid-area:six;
+	}
+	span{
+	vertical-align:middle;
+	}
