@@ -1,0 +1,111 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    text-align: left;
+    margin: 150px 420px;
+    border:whitesmoke solid;
+}
+
+    thead th:nth-child(1) {
+        width: 15%;
+        padding-left: 35px;
+    }
+
+    thead th:nth-child(2) {
+        width: 15%;
+    }
+
+    thead th:nth-child(3) {
+        width: 15%;
+    } 
+
+    thead th:nth-child(4) {
+        width: 15%;
+    }
+
+    thead th:nth-child(5) {
+        width: 20%;
+        text-align: left;
+    }
+
+    thead th:nth-child(6) {
+        width: 10%;
+        text-align: left;
+    }
+
+th,
+td {
+    padding: 10px;
+}
+
+    tbody td:nth-child(1) {
+    width: 15%;
+    padding-left: 35px
+    }
+    
+    tbody td:nth-child(2) {
+        width: 15%;
+        }
+    
+    tbody td:nth-child(3) {
+        width: 5%;
+    }
+    
+    tbody td:nth-child(4) {
+        width: 10px;
+    }
+    
+    tbody td:nth-child(5) {
+        width: 20%;
+        text-align: left;
+    }
+    
+    tbody td:nth-child(6) {
+    width: 15%;
+    text-align: left;
+    }
+
+.btn-progress {
+    width: 75px;
+    background-color: rgb(30, 146, 7);
+    border: none;
+    padding: 7px;
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+}
+
+.btn-open {
+    width: 55px;
+    background-color: rgb(255, 194, 27);
+    border: none;
+    padding: 7px;
+    text-align: center;
+    border-radius: 10%;
+    color: rgb(41, 23, 23);
+}
+
+.btn-hold {
+    width: 65px;
+    background-color: rgb(201, 24, 24);
+    border: none;
+    padding: 7px;
+    border-radius: 10%;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(240, 240, 240);
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}

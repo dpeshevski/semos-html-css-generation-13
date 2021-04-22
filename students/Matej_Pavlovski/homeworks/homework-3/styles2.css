@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(240, 240, 240);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    color: rgb(83, 83, 83);
+    box-shadow: 7px 10px 14px -10px rgb(94, 94, 94);
+  }
+  
+  table h3,
+  tbody tr th {
+    color: rgb(70, 70, 70);
+    margin-bottom: 4rem;
+  }
+  
+  thead tr td {
+    padding: 25px 14px;
+  }
+  
+  tbody tr th,
+  tbody tr td {
+    padding: 14px;
+  }
+  
+  thead tr,
+  tbody tr:nth-child(even) {
+    background-color: rgb(255, 253, 253);
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: rgba(205, 205, 206, 0.199);
+  }
+  
+  thead tr td {
+    text-transform: uppercase;
+  }
+  
+  tbody {
+    font-size: 14px;
+  }
+  
+  tbody tr th {
+    text-align: left;
+  }
+  
+  .progress,
+  .open,
+  .hold {
+    padding: 6px 4px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .progress,
+  .hold {
+    color: rgb(255, 249, 249);
+  }
+  
+  .progress,
+  .hold,
+  .open {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .progress {
+    background-color: rgb(41, 172, 73);
+    width: 5rem;
+  }
+  
+  .open {
+    background-color: rgb(245, 182, 66);
+    width: 3.5rem;
+    color: rgb(56, 56, 56);
+  }
+  
+  .hold {
+    background-color: rgb(199, 18, 18);
+    width: 4.5rem;
+  }

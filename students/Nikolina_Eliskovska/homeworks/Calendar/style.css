@@ -1,0 +1,48 @@
+body {
+    background-color: #d9e2eb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+    max-width: 400px;
+    max-height: 700px;
+    background-color: #ffffff;
+    border: 2px solid #718ba5;
+    border-style: double;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.main h1 {
+    color: #375069;
+    font-weight: bolder;
+    margin-left: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.month {
+    color: 
+    #beccdb;
+    display: grid;
+    grid-column: span;
+    grid-template-columns:  40px 40px 40px 40px 40px 40px 40px;
+    grid-gap: 15px;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dates {
+    color: #375069;
+    font-weight: bolder;
+    display: grid;
+    grid-column: span;
+    grid-template-columns:  40px 40px 40px 40px 40px 40px 40px;
+    grid-gap: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.dates > div {
+    margin-bottom: 10px;
+}

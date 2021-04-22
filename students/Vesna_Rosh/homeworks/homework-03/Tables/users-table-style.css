@@ -1,0 +1,71 @@
+body { 
+  background: #e0e7f1;
+  margin-top: 60px;
+}
+table {
+  table-layout: fixed;
+  width: 60%;
+  height: 20vh;
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0 10px;
+  background-color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  outline: 2rem solid rgb(245, 245, 245);
+  font-size: .5rem;
+}
+table thead tr th {
+  background-color:rgb(245, 245, 245) ;
+}
+table td {
+  border: 10px solid rgb(245, 245, 245);
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+table thead tr th,
+table tbody tr td {
+  text-align: center;
+}
+table tr td:first-child {
+  text-align: left;
+  padding-left: 5px;
+}
+.data {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-img img{
+  margin-right: 15px;
+	height: 30px;
+	width: 30px;
+	border-radius: 45px;
+}
+.disc {
+  height: 5px;
+  width: 5px;
+  background-color: rgb(6, 156, 73);
+  border-radius: 50%;
+  display: inline-block;
+}
+.btn {
+  width: 54px;
+  font-size: 0.55rem;
+  background-color: #0b72c7;
+  border-color: #0b72c7;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+.dots {
+  font-size: 20px;
+  color:crimson;
+}
+
+
+
+
+
+
+

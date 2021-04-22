@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/*################### Header  ####################### */
+header{
+ display: flex;
+ justify-content: space-between;
+}
+.uza {
+  font-size: 30px;
+}
+.links {
+  display: flex; 
+  list-style-type: none;
+}
+
+li a{
+  padding:15px;
+  text-decoration: none;
+  color: black;
+}
+.a1 {
+  text-decoration: underline blue;
+}
+.a7button {
+  background-color: grey;
+  color: blue;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+/*##################### Main ##########################*/
+
+main{
+ width: 100%;
+}
+
+/*####################  Section1  #######################*/
+.sec1 {
+  display: flex;
+  justify-content:center;
+  padding: 4rem;
+}
+.p1 {
+  margin: 0;
+}
+.sp1, .sp2 , .sp3 {
+  font-size: 75px;
+}
+.sp3 {
+  color: blue;
+}
+.sp4{
+  font-size: 20px;
+  color: rgb(212, 207, 207);
+}
+button {
+  background-color: blue;
+  color: white;
+}
+/*#######################   Section2 ############################*/
+.sec2 {
+  display:flex;
+  justify-content: center;
+  padding: 4rem;
+}
+.p2 {
+  font-size: 40px;  
+}
+.img2 {
+  margin-right: 8rem;
+  width: 300px;
+}

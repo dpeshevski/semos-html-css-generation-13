@@ -1,0 +1,78 @@
+body{
+  background-color: grey;
+}
+section {
+  width: 70%;
+  background-color: rgb(184, 180, 180);
+  margin: auto;
+  margin-top: 5rem;
+}
+caption{
+  text-align: left;
+  font-size: 2rem;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;  
+  width: 80%;
+  margin-left: 10%;  
+}
+thead th:nth-child(1){
+ width: 30%;
+}
+thead th:nth-child(2)  {
+  width: 15%;
+}
+thead th:nth-child(3){
+  width: 15%;
+}
+thead th :nth-child(4){
+  width: 15%;
+}
+thead th:nth-child(5)  {
+  width: 15%;
+}
+thead th:nth-child(5){
+width: 10%;
+}
+tbody td {
+  text-align: center;
+}
+tbody tr td:nth-child(5){
+  color: blue;
+}
+
+button{
+  background-color: blue;
+  color: white;
+  
+}
+tr{
+ border-collapse: collapse;
+  border-spacing: 100px ;
+  margin: 10px ;
+}
+tbody{
+  background-color:rgb(207, 200, 200);
+}
+.avtive {
+  border-radius: 5px;
+}
+.avtive {
+  width: 1px;
+  height: 1px;
+}
+.userimg {
+  width: 20px;
+  height: 40px;
+  }
+.user {
+  display: flex;
+  text-align: center;
+}
+td.user {
+  text-align: center;
+}
+tr th:nth-child(1) {
+  text-align: left;
+}

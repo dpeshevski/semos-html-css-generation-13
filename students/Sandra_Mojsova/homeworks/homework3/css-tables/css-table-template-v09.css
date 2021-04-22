@@ -1,0 +1,40 @@
+html , body{
+    background-color: rgb(255, 251, 236);
+    margin : 0 auto ;
+    display : flex;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+tbody td {
+    padding: 15px;
+}
+
+tbody tr:nth-child(odd)
+{
+    background-color: white;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: rgb(197, 190, 190);
+}
+.btn {
+    border-radius : 5px;
+}
+.btn-status_on-progress {
+     background-color: rgb(15, 196, 15);
+}
+
+.btn-status_open {
+    background-color: rgb(228, 228, 101);
+}
+
+.btn-status_on-hold {
+    background-color: rgb(206, 47, 47);
+}

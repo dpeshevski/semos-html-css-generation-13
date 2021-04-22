@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:rgb(218, 214, 214);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {  
+  width: 100%;
+  height: 30rem;
+  position: relative;
+  background-image: url(../outcome/drhouse.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container,
+header{
+  padding: 1rem;
+}
+header { 
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+}
+
+.links li {
+  padding: 0.8rem;
+}
+.links a {
+  text-decoration: none;  
+}
+.windows {
+  display: flex;
+  justify-content: space-around; 
+  text-align: center;  
+  font-size: 30px;
+  
+}
+main {
+  text-align: center;
+  padding-top: 3rem;
+  margin-bottom: 15rem;
+  color: white;
+}
+input {
+  width: 23rem;
+  height: 2.2rem;
+  border-radius: 50px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+}
+
+form button{
+  width: 5rem;
+  height: 2.2rem;
+  border-radius: 50px;
+  background: rgb(180, 41, 64);
+  color: white;
+  border: none;  
+}
+main p {
+  margin-top: 3rem;
+  }
+  main a {
+    color: white;
+    text-decoration: none;    
+  }
+  .window1 {
+    width: 200px;
+    height: 80px;
+    background:white;
+    margin-top: -8rem;
+  }
+  .cbtn {
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;       
+  }
+  .capbutton{
+    align-items: center;
+  }
+  .images {
+    display: flex;
+    justify-content: center;
+  }
+  .cbtn button {
+    border-radius: 50px;
+    background: rgb(180, 41, 64);
+  }

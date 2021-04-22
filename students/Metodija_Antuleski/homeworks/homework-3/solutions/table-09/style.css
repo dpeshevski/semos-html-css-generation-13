@@ -1,0 +1,57 @@
+tbody tr:nth-child(odd) {
+    background-color: rgb(241, 241, 241);
+}
+tbody tr:nth-child(even) {
+    background-color: rgba(228, 224, 224, 0.822);
+}
+
+table {
+    border-collapse: collapse;
+    width: 900px;
+    text-align: left;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+tbody tr { 
+    /* width: 900px; */
+    height: 70px;
+}
+
+.btn-progress {
+    color: white;
+    background-color: rgb(96, 216, 96);
+    border: none;
+    width: 100px;
+    height: 28px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn-open {
+    color: black;
+    background-color: rgb(243, 184, 75);
+    border: none;
+    width: 55px;
+    height: 28px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn-hold {
+    color: white;
+    background-color: rgb(253, 44, 44);
+    border:none;
+    width: 66px;
+    height: 28px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+td,
+th {
+    padding-left: 30px;
+}

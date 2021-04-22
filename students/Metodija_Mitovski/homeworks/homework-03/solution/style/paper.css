@@ -1,0 +1,145 @@
+body {
+  background: url("../static/old-paper.jpg");
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----header---- */
+header,
+main,
+footer {
+  width: 95%;
+}
+
+header {
+  margin: 1rem auto 1.2rem auto;
+  background-color: rgba(211, 241, 250, 0.267);
+  border-top: 2px solid rgb(199, 198, 198);
+  border-left: 2px solid rgb(199, 198, 198);
+  border-right: 2px solid rgb(199, 198, 198);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  padding: 0.7rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgba(5, 49, 66, 0.623);
+}
+
+/* ----main---- */
+main {
+  display: flex;
+  margin-top: 20px;
+  margin: auto;
+}
+
+aside {
+  width: 25%;
+  border-right: 2px solid rgba(199, 198, 198, 0.486);
+}
+
+aside div {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  color: rgb(66, 66, 66);
+  margin-bottom: 1rem;
+}
+
+aside div,
+.inner-section-1-1 button,
+footer {
+  background-color: rgb(195, 231, 94);
+}
+
+.menu-arrow {
+  color: rgb(116, 112, 112);
+}
+
+aside div h2 {
+  padding: 5px;
+}
+
+aside a,
+aside li {
+  color: rgb(100, 106, 110);
+  padding: 4px;
+}
+
+aside div:nth-child(3) {
+  margin: 2rem 0 1rem 0;
+}
+
+aside p {
+  width: 80%;
+}
+
+aside p,
+.main-section-1,
+footer {
+  color: rgb(80, 80, 80);
+}
+
+/* ---- main-section-1 ---- */
+.main-section-1 {
+  width: 75%;
+  padding: 1rem;
+}
+
+.main-section-1 h1 {
+  margin-bottom: 1rem;
+}
+
+.inner-section-1-1 {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.inner-section-1-1 div {
+  width: 50%;
+  padding: 1rem;
+}
+
+.inner-section-1-1 div:nth-child(1) {
+  border-right: 2px solid rgba(199, 198, 198, 0.486);
+}
+
+.inner-section-1-1 button {
+  padding: 10px 15px;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  border: 2px solid rgb(177, 175, 175);
+  color: rgb(63, 62, 62);
+}
+
+/* ---- footer ---- */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  margin: 2rem auto 1rem auto;
+}

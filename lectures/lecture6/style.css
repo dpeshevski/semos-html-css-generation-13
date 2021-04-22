@@ -1,0 +1,85 @@
+html {
+  background-image: url('backgound.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  color: #fff;
+  line-height: 32px; /* 32px */
+}
+
+nav {
+  background-color: #12d0dd;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: #12d0dd;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0 10px;
+  line-height: 60px;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+
+nav a:hover {
+  background-color: #000;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+
+/* First Tier Dropdown menu */
+nav ul ul li {
+  width: 120px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+
+/* Second Tier Dropdown Menu */
+/* Third Tier Drowdown Menu */
+/* More */
+
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 120px;
+}
+/* 
+li > a::before {
+  content: '-';
+} */
+
+li > a::after {
+  content: ' +';
+}
+
+li > a:only-child::after {
+  content: '';
+}

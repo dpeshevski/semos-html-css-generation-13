@@ -1,0 +1,32 @@
+html, body {
+    background-color: #d9e2eb ;
+    padding-top: 30px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 500px;
+    background-color:white;
+    border: 3px solid #c1cfdd;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 15px;
+    color: #869cb2;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 10px;
+}
+
+#first {
+    grid-column: span 5;
+}
