@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+        
+}
+
+header {
+    background-image: url('https://blog.architizer.com/wp-content/uploads/IwanBaan_ICA_VCU17-12SHA-4424_WH-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 20px 10px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 15px 10px;
+    margin: 10px auto;
+    width: 1200px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c53be;
+  }
+
+  .header a {
+    float: left;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+
+
+  /* mainn */
+
+.centar-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centar-text h1 {
+  margin-top: 150px;
+  color: #fff;
+}
+
+.centar-text input {
+  margin-top: 20px;
+  padding: 10px;
+  width: 350px;
+  border: none;
+  border-radius: 40px;
+}
+
+.btn-search {
+  margin-top: 20px;
+  padding: 10px;
+  width: 80px;
+  border: none;
+  border-radius: 40px;
+  background-image: linear-gradient( #640964,#ca0d8b);
+  color: #fff; 
+}
+
+.centar-text p {
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  color: #fff;
+}
+
+.centar-text a {
+  color: #2c53be;
+  font-weight: bold;
+}
+
+/* ------- */
+
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: -60px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  height: 150px;  
+  background-color: #fff;
+  box-shadow: 1px 1px 20px 1px silver;
+}
+
+.container p {
+  margin-top: 10px;
+
+}
+
+.fas {
+  font-size: xx-large;
+  color: #2c53be;
+}
+
+
+.properties {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px ;
+  color: #2c53be;
+}
+
+.view-properties {
+  background-image: linear-gradient( #640964,#ca0d8b);
+  color: #fff;
+  padding: 10pxpx;
+  width: 150px;
+  border: none;
+  border-radius: 40px;
+
+}
+
+.imgs {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+
+.imgs img{
+  height: 300px;    
+}

@@ -1,0 +1,93 @@
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+  
+}
+
+thead th:nth-child(1) {
+    width: 10%;
+
+}
+
+thead th:nth-child(2) {
+    width: 15%;
+
+}
+
+thead th:nth-child(3) {
+    width: 10%;
+
+}
+
+thead th:nth-child(4) {
+    width: 10%;
+
+}
+
+thead th:nth-child(5) {
+    width: 15%;
+    
+}
+
+thead th:nth-child(6) {
+    width: 20%;
+
+}
+
+th,
+td {
+    padding: 25px;
+}
+
+thead th {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+tbody td {
+    text-align: center;
+}
+
+.btn-progress {
+    width: 90px;
+    font-size: 1rem;
+    background-color: green;
+    color: #fff;
+    padding: 8px;
+    border: solid green;
+    border-radius: 5px;
+}
+
+.btn-open {
+    width: 60px;
+    font-size: 1rem;
+    background-color: rgba(250, 212, 41, 0.87);
+    padding: 8px;
+    border: 1px solid rgba(250, 212, 41, 0.87);
+    border-radius: 5px;
+}
+
+.btn-on-hold {
+    width: 80px;
+    font-size: 1rem;
+    background-color: rgb(149, 7, 7);
+    color: #fff;
+    padding: 8px;
+    border: solid rgb(149, 7, 7);
+    border-radius: 5px;
+}
+
+thead th {
+    background-color: rgba(248, 247, 247, 0.733);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(160, 150, 150);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(248, 247, 247, 0.733)
+}

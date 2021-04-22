@@ -1,0 +1,138 @@
+html {
+  background-image: url(https://img.freepik.com/free-vector/blue-wavy-abstract-background_1409-897.jpg?size=626&ext=jpg);
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+ 
+/* header */
+
+.navbar {
+  margin: 20px;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  width: 500px;
+  display: flex;
+  font-size: 1.25rem;
+  align-items: center;
+}
+
+.other {
+  color: #1974ec;
+}
+
+.menu {
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid rgb(16, 98, 206);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+}
+
+.dropdown-content a {
+  color: cornflowerblue;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd; 
+}
+  
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 40px;
+  border: none;
+  background-color: #f9f9f9;
+  color: #1974ec;
+  box-shadow: 1px 1px 20px 1px;
+}
+ 
+
+
+/* mainn */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+  
+.left {
+  margin: 100px 0 50px 100px;
+  padding: 20px;
+}
+
+.left h1 {
+  margin: 20px;
+  font-size: 3rem;
+}
+  
+.left p {
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+.main-btn {
+  width: 170px;
+  padding: 15px;
+  margin: 45px;
+  border-radius: 50px;
+  border: none;
+  background-color: #297dfa;
+  color: #f9f9f9;
+  font-size: 1rem;
+}
+
+.right {
+  margin: 100px 100px 50px 50px;
+}
+
+.right img {
+  width: 600px;
+  height: 350px;
+}
+
+.bottom-left {
+  margin: 100px 0 50px 100px;
+  padding: 20px;
+}
+
+.bottom-left img {
+  width: 450px;
+  height: 300px;
+}
+
+.bottom-right {
+  margin: 100px 100px 50px 50px;
+  font-size: 2rem;
+}
