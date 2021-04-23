@@ -1,0 +1,71 @@
+html{
+    background-color: rgb(57, 134, 197);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    border: 5px solid #2156c7ea;
+    border-radius: 8px;
+}
+
+.user input {
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #c5c5c5;
+    background-color: #e6e6e6;
+}
+
+.pass input {
+    margin-top: 10px;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #c5c5c5;
+    background-color: #e6e6e6;
+}
+
+.btn button {
+    margin-top: 30px;
+    padding: 5px;
+    width: 120px;
+    border-radius: 3px;
+    border: 1px solid #3d884d;
+    background-color: #5fd679;
+    color: #fff;
+}
+
+.text {
+    color: #fff;
+}
+
+.text a {
+    color: #d6d609;
+}
